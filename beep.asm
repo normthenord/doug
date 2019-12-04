@@ -1,7 +1,7 @@
 global    _start
 
 section .data
-	text2:  db        "Doug is a cock"      ; note the newline at the end
+	text2:  db        "Doug is a cock "      ; note the newline at the end
 	msglen2 equ $ - text2
 	text1:  db        "How many times is Doug a cock? "
 	msglen1 equ $ - text1
